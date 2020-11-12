@@ -3,7 +3,7 @@
 5 machine learning algorymths were test to predict exoplanets.  Rows with NA values were dropped.  Initial models did not use any of the error data which reduced the accuracy of the model.  The best model created was a deep learning model yielding 89.9% accurate and saved as ClangDeep_42_20_100.h5.  
 
 GridSearchCV (model_1):
-This was the first algorythm tested and yielded a score of 0.83.  The model was able to accurately predict false positives at 98%.  Candidate and cofirmed were 60% accurate.
+This was the first algorythm tested and yielded a score of 0.86.  The model was able to accurately predict false positives at 98%.  Candidate and cofirmed were 81% and 74% accurate.
 
 KNeighborsClassifier (model_2):
 No error variables were used for this model and yielded a score of .78 at leveled off at k=5
